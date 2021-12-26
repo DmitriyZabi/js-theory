@@ -2,7 +2,8 @@
 
 [Основы для Начинающих - Полный Курс за 6 часов [2020]](https://youtu.be/Bluxbh9CaQ0)
 
-**Основы** *01.base.js*
+#### Основы
+*01_base.js*
 
 > 1. Переменные
 > 2. Операторы
@@ -14,5 +15,15 @@
 > 8. Циклы
 > 9. Объекты
 
-### Числа+BigInt
-**02.number.js**
+#### Числа+BigInt
+*02_number.js*
+
+> 1. Number
+> 2. BigInt
+> 3. Math
+> 4. Example Random(min, max)
+
+#### Строки
+*03_string.js*
+
+
