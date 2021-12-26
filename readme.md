@@ -46,3 +46,14 @@
 > 5. Rest
 > 6. Spread
 > 7. Destructuring
+
+### Объекты
+*06_object.js*
+
+> 1. Основные операции
+> 2. For in
+> 3. Object.keys forEach
+> 4. Context this, bind, call, apply
+> 5. Rest
+> 6. Spread
+> 7. Destructuring
