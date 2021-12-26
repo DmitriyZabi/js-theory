@@ -26,4 +26,23 @@
 #### Строки
 *03_string.js*
 
+### Функции
+*04_function.js*
 
+> 1. Function Declaration
+> 2. Function Expression
+> 3. Анонимные функции
+> 4. Стрелочные функции
+> 5. Параметры по умолчанию
+> 6. Замыкания
+
+### Массивы
+*05_array.js*
+
+> 1. Основные операции
+> 2. Map
+> 3. Filter
+> 4. Find, Reduce
+> 5. Rest
+> 6. Spread
+> 7. Destructuring

@@ -1,4 +1,6 @@
-// Массивы
+// 1. Основные операции
+console.log('1. Основные операции')
+
 const cars = ['Mazda', 'Toyota', 'Nissan']
 
 console.log('Array =',cars)
@@ -26,6 +28,10 @@ console.log('includes Mazda', cars.includes('Mazda'))
 const uppercaseCars = cars.map(car => car.toUpperCase())
 console.log('Uppercase array', uppercaseCars)
 
+
+// 2. Map
+console.log('2. Map')
+
 const fib = [1, 1, 2, 3, 5, 8, 13]
 const fib2 = fib.map(n => n ** 2)
 console.log('array =', fib)
@@ -41,9 +47,16 @@ const fib4 = fib.map(pow2).map(sqrt)
 // const fib4 = fib.map(pow2).map(Math.sqrt) Альтернативная запись
 console.log('array ** 2 + sqrt =', fib4)
 
+// 3. Filter
+console.log('3. Filter')
+
 const filter1 = n => n > 5
 const fib5 = fib.filter(filter1)
 console.log('array > 5 =', fib5)
+
+
+// 4. Find, Reduce
+console.log('4. Find, Reduce')
 
 const people = [
     { name: 'Dima', budget: 15000 },
@@ -72,18 +85,24 @@ const allBudget2 = people
 }, 0)
 console.log('summ budget if budget > 10000', allBudget2)
 
-// Rest
+// 5. Rest
+console.log('5. Rest')
+
 const average = (...args) => args.reduce((acc, i) => acc += i, 0) / args.length 
 console.log('average of array', average(10, 20, 30, 40, 50))
 
-// Spread
+// 6. Spread
+console.log('6. Spread')
+
 console.log(...fib)
 console.log(Math.max(...fib))
 
 const newFib = [1, ...fib]
 console.log(newFib)
 
-// Destructuring
+// 7. Destructuring
+console.log('7. Destructuring')
+
 const fib6 = [1, undefined, 2, 3, 5, 8, 13]
 const [a, b = 3, ...c] = fib6
 console.log(a, b, c)

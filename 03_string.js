@@ -1,4 +1,3 @@
-// String
 const age = 28
 const name = 'Дима'
 //console.log('Имя: ' + name + ', возраст: ' + age + ' лет')
