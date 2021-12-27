@@ -57,3 +57,18 @@
 > 5. Rest
 > 6. Spread
 > 7. Destructuring
+
+### Асинхронность
+*07_async.js*
+
+> 1. setTimeout, setInterval
+> 2. Promise
+> 3. async, await
+
+### DOM
+*08_DOM.js*
+
+[Что такое prototype. JavaScript Prototype](https://youtu.be/aQkgUUmUJy4)
+
+### DOM
+*11_prototype.js*

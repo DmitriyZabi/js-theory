@@ -1,5 +1,3 @@
-// прототипы
-// https://youtu.be/aQkgUUmUJy4
 const person = {
     name: 'Dima',
     age: 28,

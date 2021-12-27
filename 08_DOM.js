@@ -1,5 +1,4 @@
-// DOM
-const heading = document.getElementById('hello')
+const heading = document.getElementById('hello') // Старая запись
 console.dir(heading)
 console.log(heading.textContent)
 heading.style.color = 'red'
@@ -7,13 +6,12 @@ heading.style.textAlign = 'center'
 
 const heading2 = document.querySelector('#hello') // Первый найденный
 console.dir(heading2)
-const heading3 = heading2.nextElementSibling
+const heading3 = heading2.nextElementSibling // Следующий
 console.dir(heading3)
 
 const addStyles = (node, text, color = 'red', fontSize) => {
   node.textContent = text
   node.style.color = color
-  // falsy: 0, undefined, false, null, ''
   if (fontSize) {
     node.style.fontSize = fontSize
   }

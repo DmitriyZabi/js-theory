@@ -56,7 +56,7 @@ console.log(num1 === num2)
 
 const isReady = true
 // Обычный if
-if (isReady) {
+if (isReady) { // если isReady != falsy (0, undefined, false, null, '')
   console.log('Готово')
 } else {
   console.log('Не готово')

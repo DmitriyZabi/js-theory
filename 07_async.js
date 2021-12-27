@@ -1,4 +1,4 @@
-// Синхронность
+// 1. setTimeout, setInterval
 /*
 setTimeout(() => {
     console.log('after timeout')
@@ -9,6 +9,8 @@ setInterval(() => {
 }, 1000)
 */
 
+// 2. Promise
+/*
 const delay = (wait = 1000) => {
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -19,7 +21,6 @@ const delay = (wait = 1000) => {
     return promise
 }
 
-/*
 delay(2000)
 .then(()=> {
     console.log('After 2 sec')
@@ -28,6 +29,7 @@ delay(2000)
 .finally(()=> console.log('Finally'))
 */
 
+// 3. async await
 const getData = () => new Promise(resolve => resolve([
     1, 1, 2, 3, 5, 8, 13
 ]))
@@ -45,6 +47,5 @@ async function asyncExample() {
     finally {
         
     }
-    
 }
 asyncExample()
