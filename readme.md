@@ -68,7 +68,8 @@
 ### DOM
 *08_DOM.js*
 
-[Что такое prototype. JavaScript Prototype](https://youtu.be/aQkgUUmUJy4)
 
-### DOM
+
+### Prototype
 *11_prototype.js*
+[Что такое prototype. JavaScript Prototype](https://youtu.be/aQkgUUmUJy4)
