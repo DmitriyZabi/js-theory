@@ -88,6 +88,7 @@ logger.withParams.call(person, true, true, true)
 // или
 // logger.withParams.apply(person, [true, true, true])
 
+
 // 5. Rest
 console.log('5. Rest')
 

@@ -9,7 +9,7 @@ const person = {
 Object.prototype.sayHello = () => console.log("hello")
 console.log(person.sayHello())
 
-const lena = Object.create(person)
+const lena = Object.create(person) // person - прототип объекта lena
 console.log(lena.greet())
 lena.name = "Elena"
 console.log(lena)

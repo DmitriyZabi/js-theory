@@ -1,13 +1,15 @@
 // 1. Переменные
-console.log('1. Переменные')
+console.group('1. Переменные')
 
 const firstName = 'laptev'
 let lastName = 'dima'
 lastName = 'lptv'
 console.log(`${firstName} ${lastName}`)
 
+console.groupEnd()
+
 // 2. Операторы
-console.log('2. Операторы')
+console.group('2. Операторы')
 
 const a = 10
 const b = 5
@@ -24,8 +26,10 @@ console.log(a * b)
 console.log(a / b)
 console.log(c)
 
+console.groupEnd()
+
 // 3. Типы данных
-console.log('3. Типы данных')
+console.group('3. Типы данных')
 
 const isProgrammer = true
 const name = 'dima'
@@ -35,8 +39,10 @@ console.log(typeof isProgrammer)
 console.log(typeof name)
 console.log(typeof age)
 
+console.groupEnd()
+
 // 4. Приоритет операторов
-console.log('4. Приоритет операторов')
+console.group('4. Приоритет операторов')
 
 const fullAge = 29
 const birthYear = 1992
@@ -45,8 +51,10 @@ const currentYear = 2020
 const isFullAge = currentYear - birthYear >= fullAge
 console.log(isFullAge)
 
+console.groupEnd()
+
 // 5. Условные операторы
-console.log('5. Условные операторы')
+console.group('5. Условные операторы')
 
 const num1 = 42
 const num2 = '42'
@@ -64,8 +72,10 @@ if (isReady) { // если isReady != falsy (0, undefined, false, null, '')
 // Тернарное выражение
 isReady ? console.log('Готово') : console.log('Не готово')
 
+console.groupEnd()
+
 // 6. Функции
-console.log('6. Функции')
+console.group('6. Функции')
 
 function calcAge(year) {
   return 2020 - year
@@ -79,8 +89,10 @@ function logInfoAbout(name, year) {
 }
 logInfoAbout('Дима', 1992)
 
+console.groupEnd()
+
 // 7. Массивы
-console.log('7. Массивы')
+console.group('7. Массивы')
 
 const myArr = [1, 2, 3]
 //const myArr = new Array(1, 2, 3)
@@ -92,15 +104,19 @@ myArr[3] = 4
 myArr[myArr.length] = 5
 console.log(myArr)
 
+console.groupEnd()
+
 // 8. Циклы
-console.log('8. Циклы')
+console.group('8. Циклы')
 
 for (let i = 0; i < myArr.length; i++) console.log(`${i}: ${myArr[i]}`)
 
 for (let item of myArr) console.log(item)
 
+console.groupEnd()
+
 // 9. Объекты
-console.log('9. Объекты')
+console.group('9. Объекты')
 
 const person = {
   fName: 'Laptev',
@@ -118,3 +134,5 @@ person.func()
 
 person.isProgrammer = true
 console.log(person)
+
+console.groupEnd()

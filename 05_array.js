@@ -1,5 +1,5 @@
 // 1. Основные операции
-console.log('1. Основные операции')
+console.group('1. Основные операции')
 
 const cars = ['Mazda', 'Toyota', 'Nissan']
 
@@ -28,9 +28,10 @@ console.log('includes Mazda', cars.includes('Mazda'))
 const uppercaseCars = cars.map(car => car.toUpperCase())
 console.log('Uppercase array', uppercaseCars)
 
+console.groupEnd()
 
 // 2. Map
-console.log('2. Map')
+console.group('2. Map')
 
 const fib = [1, 1, 2, 3, 5, 8, 13]
 const fib2 = fib.map(n => n ** 2)
@@ -47,16 +48,19 @@ const fib4 = fib.map(pow2).map(sqrt)
 // const fib4 = fib.map(pow2).map(Math.sqrt) Альтернативная запись
 console.log('array ** 2 + sqrt =', fib4)
 
+console.groupEnd()
+
 // 3. Filter
-console.log('3. Filter')
+console.group('3. Filter')
 
 const filter1 = n => n > 5
 const fib5 = fib.filter(filter1)
 console.log('array > 5 =', fib5)
 
+console.groupEnd()
 
 // 4. Find, Reduce
-console.log('4. Find, Reduce')
+console.group('4. Find, Reduce')
 
 const people = [
     { name: 'Dima', budget: 15000 },
@@ -85,14 +89,18 @@ const allBudget2 = people
 }, 0)
 console.log('summ budget if budget > 10000', allBudget2)
 
+console.groupEnd()
+
 // 5. Rest
-console.log('5. Rest')
+console.group('5. Rest')
 
 const average = (...args) => args.reduce((acc, i) => acc += i, 0) / args.length 
 console.log('average of array', average(10, 20, 30, 40, 50))
 
+console.groupEnd()
+
 // 6. Spread
-console.log('6. Spread')
+console.group('6. Spread')
 
 console.log(...fib)
 console.log(Math.max(...fib))
@@ -100,11 +108,15 @@ console.log(Math.max(...fib))
 const newFib = [1, ...fib]
 console.log(newFib)
 
+console.groupEnd()
+
 // 7. Destructuring
-console.log('7. Destructuring')
+console.group('7. Destructuring')
 
 const fib6 = [1, undefined, 2, 3, 5, 8, 13]
 const [a, b = 3, ...c] = fib6
 console.log(a, b, c)
 const [d,,,e ] = fib6
 console.log(d, e)
+
+console.groupEnd()

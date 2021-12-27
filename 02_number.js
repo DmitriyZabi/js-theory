@@ -1,5 +1,5 @@
 // 1. Number
-console.log('1. Number')
+console.group('1. Number')
 
 const int = 42
 const float = 42.42
@@ -32,15 +32,19 @@ console.log(`+('42') + 2`, +(strInt) + 2)
 console.log('0.2 + 0.4', 0.2 + 0.4)
 console.log('+(0.2 + 0.4).toFixed(1)', +(0.2 + 0.4).toFixed(1))
 
+console.groupEnd()
+
 // 2. BigInt
-console.log('2. BigInt')
+console.group('2. BigInt')
 
 console.log(5647356376537563756475475647564754723123n)
 console.log('typeof(5647356376537563756475475647564754723123n)', typeof(5647356376537563756475475647564754723123n))
 console.log('10n - BigInt(4)', 10n - BigInt(4))
 
+console.groupEnd()
+
 // 3. Math
-console.log('3. Math')
+console.group('3. Math')
 
 console.log('Math.PI', Math.PI)
 console.log('Math.E', Math.E)
@@ -55,8 +59,10 @@ console.log('Math.round(4.9)', Math.round(4.9)) // Округление до б�
 console.log('Math.trunc(4.9)', Math.trunc(4.9)) // Округление с отсечением дробной части
 console.log('Math.random()', Math.random())
 
+console.groupEnd()
+
 // 4. Example Random(min, max)
-console.log('4. Example Random(min, max)')
+console.group('4. Example Random(min, max)')
 
 function getRandomBetween(min, max)
 {
@@ -64,3 +70,5 @@ function getRandomBetween(min, max)
 }
 
 console.log('Random[5, 18]', getRandomBetween(5, 18))
+
+console.groupEnd()

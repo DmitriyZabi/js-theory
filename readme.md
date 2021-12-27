@@ -68,8 +68,10 @@
 ### DOM
 *08_DOM.js*
 
-
-
 ### Prototype
 *11_prototype.js*
 [Что такое prototype. JavaScript Prototype](https://youtu.be/aQkgUUmUJy4)
+
+### this, call, bind, apply
+*12_this.js*
+[Что такое контекст this. Как работает call, bind, apply](https://youtu.be/UGapN-hrekw)

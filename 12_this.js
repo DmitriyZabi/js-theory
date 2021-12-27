@@ -1,5 +1,3 @@
-// https://youtu.be/UGapN-hrekw
-
 const person = {
     name: 'Dima',
     age: 29,
