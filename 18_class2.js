@@ -1,5 +1,3 @@
-// https://youtu.be/uLY9GXGMXaA
-
 class Component {
     constructor(selector) {
         this.$el = document.querySelector(selector)

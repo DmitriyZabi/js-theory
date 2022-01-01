@@ -1,6 +1,3 @@
-// https://youtu.be/np08WdS9OXg
-// Classes
-
 class Person {
     constructor(name, age) {
         this.name = name

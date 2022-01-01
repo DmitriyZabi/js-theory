@@ -1,7 +1,4 @@
-// https://youtu.be/1idOY3C1gYU
-
 /*
-
 console.log('Request data...')
 
 const p = new Promise((resolve, reject) => {
@@ -33,7 +30,7 @@ p.then(data => {
     console.log('Data modified from promise', data)
 })
 .catch(err => console.error('Error', err))
-
+.finally(() => console.log('Finally'))
 */
 
 //
@@ -46,4 +43,4 @@ const sleep = ms => new Promise(resolve => setTimeout(() => resolve(), ms))
 Promise.all([sleep(2000), sleep(5000)]).then(() => console.log('All promises'))
 
 // Сработал 1й
-Promise.race([sleep(2000), sleep(5000)]).then(() => console.log('All promises'))
+Promise.race([sleep(2000), sleep(5000)]).then(() => console.log('First promise'))

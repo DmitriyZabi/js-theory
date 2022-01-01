@@ -1,5 +1,3 @@
-// https://youtu.be/vIZs5tH-HGQ
-
 console.log('Start')
 setTimeout(() => {
     console.log('inside timeout')

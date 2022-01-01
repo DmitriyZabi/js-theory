@@ -1,5 +1,3 @@
-// https://youtu.be/uLY9GXGMXaA
-
 /*
 const animal = {
     name: 'animal',

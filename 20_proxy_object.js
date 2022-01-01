@@ -1,5 +1,3 @@
-// https://youtu.be/np08WdS9OXg
-// Object
 const person = {
     name: 'Dima',
     age: 28,
@@ -42,5 +40,3 @@ const op = new Proxy(person, {
 op.age
 op.age = 26
 op.address = 12
-
-

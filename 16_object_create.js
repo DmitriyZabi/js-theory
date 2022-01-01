@@ -1,9 +1,6 @@
-// https://youtu.be/cS6nTVNzOPw
-
-
 const person = Object.create(
-{}, // тут прототип
-{   // тут поля
+{}, // прототип
+{   // поля
     name: {
         value: 'Dima',
         enumerable: true, // участвует в перечислении (по умолчанию false)

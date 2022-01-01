@@ -1,6 +1,3 @@
-// https://youtu.be/np08WdS9OXg
-// Functions
-
 const log = text => `Text: ${text}`
 
 const fp = new Proxy(log, {

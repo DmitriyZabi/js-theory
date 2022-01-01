@@ -75,3 +75,37 @@
 ### this, call, bind, apply
 *12_this.js*
 [Что такое контекст this. Как работает call, bind, apply](https://youtu.be/UGapN-hrekw)
+
+### Замыкания
+*13_zamikanie*
+[Что такое замыкания. Как они работают (+ примеры)](https://youtu.be/pahO5XjnfLA)
+
+### Асинхронность, Event Loop
+*14_async_EventLoop.js*
+[Асинхронность.Что такое Event Loop. JS SetTimeout 0](https://youtu.be/vIZs5tH-HGQ)
+
+### Promise
+*15_promise.js*
+[Promise. Что это, как работает (+ пример)](https://youtu.be/1idOY3C1gYU)
+
+## Object create, gettres/setters
+*16_object_create.js*
+[Объекты с Object.create. Что такое getters, setters](https://youtu.be/cS6nTVNzOPw)
+
+### Классы
+*17_class1.js*
+*18_class2.js*
+[Все о ES6 Классах (+ Практическое Применение)](https://youtu.be/uLY9GXGMXaA)
+
+### async, await, fetch
+*19_async_await_fetch.js*
+[Как работает Async, Await. Работа с сервером c fetch](https://youtu.be/SHiUyM_fFME)
+
+### Proxy
+*20_proxy_object.js*
+*21_proxy_function.js*
+*22_proxy_class.js*
+[Proxy. Объекты, функции, классы. Часть 1](https://youtu.be/np08WdS9OXg)
+
+*23_proxy_examples.js*
+[Proxy. Примеры. Часть 2](https://youtu.be/mSbyhHfxs04)

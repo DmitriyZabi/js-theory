@@ -1,4 +1,3 @@
-// https://youtu.be/mSbyhHfxs04
 // Wrapper
 const withDefaultValue = (target, defaultValue = 0) => {
     return new Proxy(target, {

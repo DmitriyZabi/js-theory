@@ -1,5 +1,3 @@
-// https://youtu.be/pahO5XjnfLA
-
 function createIncrementor(n) {
     return function(num) {
         return n + num

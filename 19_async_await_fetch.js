@@ -1,11 +1,8 @@
-// https://youtu.be/SHiUyM_fFME
-
 const delay = ms => {
     return new Promise(r => setTimeout(() => r(), ms))
 }
 
-const url = 'https://jsonplaceholder.typicode.com/todos'
-
+const url = 'https://jsonplaceholder.typicode.com/posts'
 /*
 function fetchTodos() {
     console.log('Fetch todo started ...')
