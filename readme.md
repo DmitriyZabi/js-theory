@@ -109,3 +109,28 @@
 
 *23_proxy_examples.js*
 [Proxy. Примеры. Часть 2](https://youtu.be/mSbyhHfxs04)
+
+## Генераторы
+*24_generators.js*
+[Генераторы. Symbol iterator, for of](https://youtu.be/7wtbNNiOh30)
+
+# Array methods
+*25_array_methods.js*
+[Методы массивов (forEach, map, filter, reduce, find, findIndex)](https://youtu.be/nEabP9CYCAQ)
+
+> 1. For
+> 2. For of
+> 3. ForEach
+> 4. Map
+> 5. Filter
+> 6. Reduce
+> 7. Find
+> 8. FindIndex
+> 9. Sort
+
+# Map, Set, WeakMap, WeakSet
+*26_map.js*
+*27_set.js*
+*28_weakmap.js*
+*29_weakset.js*
+[Все о Map, Set, WeakMap, WeakSet с примерами](https://youtu.be/mbcP3Oc0PjU)

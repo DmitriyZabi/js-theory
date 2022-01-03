@@ -1,4 +1,4 @@
-// https://youtu.be/mbcP3Oc0PjU
+console.group('Object/Entries')
 
 const obj = {
   name: 'Dima',
@@ -12,60 +12,89 @@ const entries = [
   ['job', 'Fullstack'],
 ]
 
-/*
-console.log(Object.entries(obj))
 console.log(Object.fromEntries(entries))
-*/
+console.log(Object.entries(obj))
 
-// Функционал
+console.groupEnd()
+
+//
+
+console.group('Map')
 
 const map = new Map(entries)
-//console.log(map)
+console.log(map)
 
 map.set('newField', 42).set(obj, 'Value of object')
-/*
-console.log('Добавление 2 ключей', map)
-console.log('Value ключа obj', map.get(obj))
-*/
-
-/*
+console.log('Added 2 keys', map)
+console.log('Value of key = obj', map.get(obj))
 map.delete('job')
-console.log('Удаление ключа job', map)
-console.log('Есть ли ключ job ?', map.has('job'))
-
-console.log('map size', map.size)
+console.log('Deleted key = job', map)
+console.log('Has key=job ?', map.has('job'))
+console.log('Map size', map.size)
 //map.clear() очищение карты
 
-console.log('for [key, value] of map')
+console.groupEnd()
+
+//
+
+console.group('for [key, value] of map')
+
 for (let [key, value] of map) {
   console.log(key, value)
 }
 
-console.log('for [value] of map.values')
+console.groupEnd()
+
+//
+
+console.group('for [value] of map.values')
+
 for (let value of map.values()) {
   console.log(value)
 }
 
-console.log('for [key] of map.keys')
+console.groupEnd()
+
+//
+
+console.group('for [key] of map.keys')
+
 for (let key of map.keys()) {
   console.log(key)
 }
 
-console.log('forEach')
+console.groupEnd()
+
+//
+
+console.group('forEach')
+
 map.forEach((value, key, m) => console.log(value, key))
 
-console.log('Массив из карты')
+console.groupEnd()
+
+//
+
+console.group('Map to Array')
+
 const array = [...map]
 // const arra = Array.from(map)
 console.log(array)
 
-console.log('Объект из карты')
+console.groupEnd()
+
+//
+
+console.group('Map to Object')
+
 const object = Object.fromEntries(map.entries())
 console.log(object)
 
-*/
+console.groupEnd()
 
-// Примеры
+//
+
+console.group('Example')
 
 const users = [{ name: 'Dima' }, { name: 'Elena' }, { name: 'Meelena' }]
 
@@ -75,7 +104,9 @@ visits
   .set(users[1], new Date().getTime() * 1000 * 60)
   .set(users[2], new Date().getTime() * 5 * 1000 * 60)
 
-function lastVisituser(user) {
+function lastVisitUser(user) {
   return visits.get(user)
 }
-console.log(lastVisituser(users[1]))
+console.log(lastVisitUser(users[1]))
+
+console.groupEnd()

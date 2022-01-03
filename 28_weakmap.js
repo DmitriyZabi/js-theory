@@ -1,9 +1,9 @@
-// https://youtu.be/mbcP3Oc0PjU
-// ключами являются объекты
+// ключами являются только объекты
+// при удалении самого объекта удаляется и поле с ключ=удаленный объект в WeakMap
 /*
 obj = { name: 'weakmap' }
 const map = new WeakMap([[obj, 'objData']])
-// get set delete has
+// Методы: get set delete has
 */
 
 const cache = new WeakMap()

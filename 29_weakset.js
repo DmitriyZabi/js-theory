@@ -4,7 +4,7 @@ const weakset = new WeakSet()
 
 weakset.add(users[0]).add(users[1])
 
-users.splice(1, 1)
+users.splice(1, 1) // удаление первого оъекта users
 
 console.log(weakset.has(users[0]))
 console.log(weakset.has(users[1]))
