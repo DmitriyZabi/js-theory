@@ -2,7 +2,7 @@
 
 [Основы для Начинающих - Полный Курс за 6 часов [2020]](https://youtu.be/Bluxbh9CaQ0)
 
-#### Основы
+### Основы
 *01_base.js*
 
 > 1. Переменные
@@ -15,7 +15,7 @@
 > 8. Циклы
 > 9. Объекты
 
-#### Числа+BigInt
+### Числа+BigInt
 *02_number.js*
 
 > 1. Number
@@ -23,7 +23,7 @@
 > 3. Math
 > 4. Example Random(min, max)
 
-#### Строки
+### Строки
 *03_string.js*
 
 ### Функции
@@ -110,11 +110,11 @@
 *23_proxy_examples.js*
 [Proxy. Примеры. Часть 2](https://youtu.be/mSbyhHfxs04)
 
-## Генераторы
+### Генераторы
 *24_generators.js*
 [Генераторы. Symbol iterator, for of](https://youtu.be/7wtbNNiOh30)
 
-# Array methods
+### Array methods
 *25_array_methods.js*
 [Методы массивов (forEach, map, filter, reduce, find, findIndex)](https://youtu.be/nEabP9CYCAQ)
 
@@ -128,7 +128,7 @@
 > 8. FindIndex
 > 9. Sort
 
-# Map, Set, WeakMap, WeakSet
+### Map, Set, WeakMap, WeakSet
 *26_map.js*
 *27_set.js*
 *28_weakmap.js*
