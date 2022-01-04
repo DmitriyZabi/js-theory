@@ -1,14 +1,21 @@
-// https://youtu.be/SGeQ-U0G7dE
+// Spread - разворачивает массив/объект в набор строк
+console.group('Spread Array')
 
-// Spread
-// Array
 const russiaCities = ['Москва', 'Ростов', 'Рязань']
 const europeCities = ['Париж', 'Лондон', 'Прага']
 
-const allCities = [...russiaCities, 'Вашингтон', ...europeCities]
-console.log(allCities)
+console.log('russiaCities', russiaCities);
+console.log('europeCities', europeCities);
 
-// Object
+const allCities = [...russiaCities, 'Вашингтон', ...europeCities]
+console.log('allCities', allCities)
+
+console.groupEnd()
+
+//
+
+console.group('Spread Object')
+
 const russiaCitiesWithPopulation = {
   Moscow: 16,
   kazan: 3,
@@ -21,34 +28,59 @@ const europeCitiesWithPopulation = {
   Paris: 5,
 }
 
+console.log('russiaCitiesWithPopulation', russiaCitiesWithPopulation);
+console.log('europeCitiesWithPopulation', europeCitiesWithPopulation);
+
 const allCitiesWithPopulation = {
   ...russiaCitiesWithPopulation,
   ...europeCitiesWithPopulation,
 }
-console.log(allCitiesWithPopulation)
+console.log('allCitiesWithPopulation', allCitiesWithPopulation)
 
-// Practice
+console.groupEnd()
+
+//
+
+console.group('Spread examples');
+
+// Spread example 1
 const numbers = [5, 1, 2, 33, 4, 56, 21]
-console.log(Math.max(...numbers))
+console.log('numbers', numbers);
+console.log('Math.max(...numbers)', Math.max(...numbers))
 
+// Spread example 2
 const divs = document.querySelectorAll('div')
 const nodes = [...divs] // теперь Array
+console.log('[...divs]', nodes);
 
-// Rest
+console.groupEnd()
+
+//
+
+// Rest - собирает параметры
+console.group('Rest');
+
 function SumSpread(a, b) {
   return a + b
 }
 
 const arr = [1, 2, 3, 4, 5]
-console.log(SumSpread(...arr)) // spread (складывает только 1 + 2)
+console.log('arr', arr);
+console.log('SumSpread', SumSpread(...arr)) // spread (складывает только 1 + 2)
 
 function SumRest(a, b, ...rest) {
   return a + b + rest.reduce((a, i) => a + i, 0)
 }
-console.log(SumRest(...arr))
+console.log('SumRest', SumRest(...arr))
+
+console.groupEnd()
+
+//
+
+console.group('Destructuring')
 
 const [a, b, ...others] = arr
-console.log(a, b, others)
+console.log(arr, a, b, others)
 
 const person = {
   name: 'Dima',
@@ -58,4 +90,6 @@ const person = {
 }
 
 const { name, age, ...others2 } = person
-console.log(name, age, others2)
+console.log(person, name, age, others2)
+
+console.groupEnd()

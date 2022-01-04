@@ -1,28 +1,27 @@
-// https://youtu.be/3-bZ7gLVSzo
-
 const myNumber = 42
 localStorage.setItem('number', myNumber) // тип: только строка
-console.log(localStorage.getItem('number'))
+console.log('number from localStorage', localStorage.getItem('number'))
 localStorage.removeItem('number')
-console.log(localStorage.getItem('number'))
+console.log('after delete number', localStorage.getItem('number'))
 //localStorage.clear()
 
 const obj = {
   name: 'Dima',
   age: 29,
 }
+console.log('obj', obj);
 
 localStorage.setItem('person', JSON.stringify(obj))
-console.log(localStorage.getItem('person'))
+console.log('obj in localStorage', localStorage.getItem('person'))
 
 const raw = localStorage.getItem('person')
 const person = JSON.parse(raw)
-console.log(person)
+console.log('obj from localStorage', person)
 
-//====================================================
-
+//
+// Синхронизация между несколькими вкладками браузера
 window.addEventListener('storage', (event) => {
   console.log(event)
 })
 
-//window.onstorage = () => {}
+//window.onstorage = () => {} // альтернативная запись

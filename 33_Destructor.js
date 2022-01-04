@@ -1,17 +1,21 @@
-// https://youtu.be/wWYokY0Pt2M
 
-// Array
+console.group('Array destructuring');
+
 function calcValues(a, b) {
   return [a + b, a - b, a * b, undefined, a / b]
 }
 
-const [sum, , mult, value1 = 'Значение по умолчанию', ...other] = calcValues(
+const [sum,, mult, value1 = 'Значение по умолчанию', ...other] = calcValues(
   32,
   10
 )
-console.log(sum, mult, value1, other)
+console.log('sum, mult, value1, other', sum, mult, value1, other)
 
-// Object
+console.groupEnd();
+
+//
+
+console.group('Object destructuring');
 
 const person = {
   name: 'Dima',
@@ -23,7 +27,6 @@ const person = {
   },
 }
 
-/*
 const {
   name: firstname,
   age,
@@ -31,10 +34,17 @@ const {
   car = 'нет машины',
   address: { city, country },
 } = person
-console.log(firstname, age, job, car, city)
-*/
+console.log('firstname, age, job, car, city', firstname, age, job, car, city)
+
+const {
+  name,
+  ...info
+} = person
+console.log('info', info);
 
 function logPersone({ name, age }) {
   console.log(name, age)
 }
 logPersone(person)
+
+console.groupEnd();

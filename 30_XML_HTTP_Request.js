@@ -1,4 +1,3 @@
-// https://youtu.be/eKCD9djJQKc
 const requestUrl = 'https://jsonplaceholder.typicode.com/users'
 
 /*

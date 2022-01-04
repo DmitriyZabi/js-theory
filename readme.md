@@ -134,3 +134,23 @@
 *28_weakmap.js*
 *29_weakset.js*
 [Все о Map, Set, WeakMap, WeakSet с примерами](https://youtu.be/mbcP3Oc0PjU)
+
+### XMLHttpRequest, Ajax, Fetch
+*30_XML_HTTP_Request.js*
+*31_fetch.js*
+[Запросы на сервер. Fetch, XMLHttpRequest (XHR), Ajax](https://youtu.be/eKCD9djJQKc)
+
+### Spread, Rest
+*32_spread_rest.js*
+[Все о Spread и Rest](https://youtu.be/SGeQ-U0G7dE)
+
+### Деструктуризация
+*33_destructor.js*
+[Все о Деструктуризации в JS](https://youtu.be/wWYokY0Pt2M)
+
+### Local storage
+*34_local_storage.js*
+[Все о LocalStorage](https://youtu.be/3-bZ7gLVSzo)
+
+### Modules
+*35_modules*
