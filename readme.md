@@ -3,7 +3,8 @@
 [Основы для Начинающих - Полный Курс за 6 часов [2020]](https://youtu.be/Bluxbh9CaQ0)
 
 ### Основы
-*01_base.js*
+
+_01_base.js_
 
 > 1. Переменные
 > 2. Операторы
@@ -16,7 +17,8 @@
 > 9. Объекты
 
 ### Числа+BigInt
-*02_number.js*
+
+_02_number.js_
 
 > 1. Number
 > 2. BigInt
@@ -24,10 +26,12 @@
 > 4. Example Random(min, max)
 
 ### Строки
-*03_string.js*
+
+_03_string.js_
 
 ### Функции
-*04_function.js*
+
+_04_function.js_
 
 > 1. Function Declaration
 > 2. Function Expression
@@ -37,18 +41,22 @@
 > 6. Замыкания
 
 ### Массивы
-*05_array.js*
+
+_05_array.js_
 
 > 1. Основные операции
 > 2. Map
 > 3. Filter
 > 4. Find, Reduce
-> 5. Rest
-> 6. Spread
-> 7. Destructuring
+> 5. Every, Some
+> 6. Splice, Slice
+> 7. Rest
+> 8. Spread
+> 9. Destructuring
 
 ### Объекты
-*06_object.js*
+
+_06_object.js_
 
 > 1. Основные операции
 > 2. For in
@@ -59,63 +67,76 @@
 > 7. Destructuring
 
 ### Асинхронность
-*07_async.js*
+
+_07_async.js_
 
 > 1. setTimeout, setInterval
 > 2. Promise
 > 3. async, await
 
 ### DOM
-*08_DOM.js*
+
+_08_DOM.js_
 
 ### Prototype
-*11_prototype.js*
+
+_11_prototype.js_
 [Что такое prototype. JavaScript Prototype](https://youtu.be/aQkgUUmUJy4)
 
 ### this, call, bind, apply
-*12_this.js*
+
+_12_this.js_
 [Что такое контекст this. Как работает call, bind, apply](https://youtu.be/UGapN-hrekw)
 
 ### Замыкания
-*13_zamikanie*
+
+_13_zamikanie_
 [Что такое замыкания. Как они работают (+ примеры)](https://youtu.be/pahO5XjnfLA)
 
 ### Асинхронность, Event Loop
-*14_async_EventLoop.js*
+
+_14_async_EventLoop.js_
 [Асинхронность.Что такое Event Loop. JS SetTimeout 0](https://youtu.be/vIZs5tH-HGQ)
 
 ### Promise
-*15_promise.js*
+
+_15_promise.js_
 [Promise. Что это, как работает (+ пример)](https://youtu.be/1idOY3C1gYU)
 
 ## Object create, gettres/setters
-*16_object_create.js*
+
+_16_object_create.js_
 [Объекты с Object.create. Что такое getters, setters](https://youtu.be/cS6nTVNzOPw)
 
 ### Классы
-*17_class1.js*
-*18_class2.js*
+
+_17_class1.js_
+_18_class2.js_
 [Все о ES6 Классах (+ Практическое Применение)](https://youtu.be/uLY9GXGMXaA)
 
 ### async, await, fetch
-*19_async_await_fetch.js*
+
+_19_async_await_fetch.js_
 [Как работает Async, Await. Работа с сервером c fetch](https://youtu.be/SHiUyM_fFME)
 
 ### Proxy
-*20_proxy_object.js*
-*21_proxy_function.js*
-*22_proxy_class.js*
+
+_20_proxy_object.js_
+_21_proxy_function.js_
+_22_proxy_class.js_
 [Proxy. Объекты, функции, классы. Часть 1](https://youtu.be/np08WdS9OXg)
 
-*23_proxy_examples.js*
+_23_proxy_examples.js_
 [Proxy. Примеры. Часть 2](https://youtu.be/mSbyhHfxs04)
 
 ### Генераторы
-*24_generators.js*
+
+_24_generators.js_
 [Генераторы. Symbol iterator, for of](https://youtu.be/7wtbNNiOh30)
 
 ### Array methods
-*25_array_methods.js*
+
+_25_array_methods.js_
 [Методы массивов (forEach, map, filter, reduce, find, findIndex)](https://youtu.be/nEabP9CYCAQ)
 
 > 1. For
@@ -129,28 +150,34 @@
 > 9. Sort
 
 ### Map, Set, WeakMap, WeakSet
-*26_map.js*
-*27_set.js*
-*28_weakmap.js*
-*29_weakset.js*
+
+_26_map.js_
+_27_set.js_
+_28_weakmap.js_
+_29_weakset.js_
 [Все о Map, Set, WeakMap, WeakSet с примерами](https://youtu.be/mbcP3Oc0PjU)
 
 ### XMLHttpRequest, Ajax, Fetch
-*30_XML_HTTP_Request.js*
-*31_fetch.js*
+
+_30_XML_HTTP_Request.js_
+_31_fetch.js_
 [Запросы на сервер. Fetch, XMLHttpRequest (XHR), Ajax](https://youtu.be/eKCD9djJQKc)
 
 ### Spread, Rest
-*32_spread_rest.js*
+
+_32_spread_rest.js_
 [Все о Spread и Rest](https://youtu.be/SGeQ-U0G7dE)
 
 ### Деструктуризация
-*33_destructor.js*
+
+_33_destructor.js_
 [Все о Деструктуризации в JS](https://youtu.be/wWYokY0Pt2M)
 
 ### Local storage
-*34_local_storage.js*
+
+_34_local_storage.js_
 [Все о LocalStorage](https://youtu.be/3-bZ7gLVSzo)
 
 ### Modules
-*35_modules*
+
+_35_modules_
